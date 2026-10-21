@@ -12,8 +12,8 @@ L.-A. Fechete et al., *Goal-Oriented Time-Series Forecasting: Foundation Framewo
 
 | 실험 | 재현 정도 |
 |---|---|
-| **BLW-TrafficDS** (논문 Table 1, 메인 실험) | 4개 모델 × 5개 정책의 평균 MAE가 모두 논문과 0~1% 이내. 개선율과 모델별 최고 정책도 일치 |
-| **SynthDS** (논문 Table 1) | 평균과 경향이 일치(B 대비 57~66% 개선, 논문 52~63%). 구간별 값은 데이터 차이로 최대 40~60% 차이 |
+| **BLW-TrafficDS** (논문 Table 1, 메인 실험) | 4개 모델 × 5개 정책의 평균 MAE가 모두 논문과 0-1% 이내. 개선율과 모델별 최고 정책도 일치 |
+| **SynthDS** (논문 Table 1) | 평균과 경향이 일치(B 대비 57-66% 개선, 논문 52-63%). 구간별 값은 데이터 차이로 최대 40-60% 차이 |
 
 ### BLW-TrafficDS: I1–I8 평균 MAE ×10³ (재현 / 논문)
 
@@ -62,7 +62,7 @@ L.-A. Fechete et al., *Goal-Oriented Time-Series Forecasting: Foundation Framewo
 ### 학습된 가중치로 평가만 하기
 
 1. [Releases](../../releases)에서 `gotsf_checkpoints.zip`을 받습니다(40개 실험).
-2. 노트북의 0~2절(저장소 클론, 패치)을 실행한 뒤 zip을 `/content/gotsf/`에 풉니다.
+2. 노트북의 0-2절(저장소 클론, 패치)을 실행한 뒤 zip을 `/content/gotsf/`에 풉니다.
    ```python
    !unzip -q gotsf_checkpoints.zip -d /content/gotsf
    ```
