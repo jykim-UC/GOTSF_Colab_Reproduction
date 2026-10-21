@@ -59,17 +59,6 @@ L.-A. Fechete et al., *Goal-Oriented Time-Series Forecasting: Foundation Framewo
 2. 기본값이 논문 Table 1 조건입니다(MAE 학습, `RUN_MODE = "full"`, 60 에폭). 처음에는 `RUN_MODE = "quick"`(3 에폭)으로 점검해도 됩니다.
 3. 소요 시간은 NVIDIA RTX PRO 6000 기준으로 약 15분입니다(무선 데이터 학습 4분, 평가 6분, toy 예제 4.5분).
 
-### 학습된 가중치로 평가만 하기
-
-1. [Releases](../../releases)에서 `gotsf_checkpoints.zip`을 받습니다(40개 실험).
-2. 노트북의 0-2절(저장소 클론, 패치)을 실행한 뒤 zip을 `/content/gotsf/`에 풉니다.
-   ```python
-   !unzip -q gotsf_checkpoints.zip -d /content/gotsf
-   ```
-3. 나머지 셀을 실행합니다. `SKIP_IF_DONE = True`라서 학습은 건너뛰고 평가만 합니다.
-
-`checkpoint.pth`는 PyTorch `state_dict`이고, `args.pk`는 학습 인자를 담은 pickle 파일입니다. pickle은 신뢰할 수 있는 출처에서 받은 것만 여세요.
-
 ## 저장소 구조
 
 ```
