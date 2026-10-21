@@ -1,0 +1,49 @@
+dataset,model,policy,ours,paper,diff_pct
+BLW-TrafficDS,iTransformer,D_L,47.6,47.76,-0.3
+BLW-TrafficDS,iTransformer,D¹_2L,48.58,48.56,0.0
+BLW-TrafficDS,iTransformer,D∞_2L,48.82,48.56,0.5
+BLW-TrafficDS,iTransformer,B,51.57,51.51,0.1
+BLW-TrafficDS,iTransformer,C (w_hat=0.1),48.65,48.54,0.2
+BLW-TrafficDS,iTransformer,C (w_hat=0.2),48.91,48.54,0.8
+BLW-TrafficDS,DLinear,D_L,54.56,54.5,0.1
+BLW-TrafficDS,DLinear,D¹_2L,54.87,54.82,0.1
+BLW-TrafficDS,DLinear,D∞_2L,54.33,54.29,0.1
+BLW-TrafficDS,DLinear,B,57.63,57.59,0.1
+BLW-TrafficDS,DLinear,C (w_hat=0.1),61.66,61.6,0.1
+BLW-TrafficDS,DLinear,C (w_hat=0.2),61.82,61.6,0.4
+BLW-TrafficDS,PatchTST,D_L,22.51,22.45,0.3
+BLW-TrafficDS,PatchTST,D¹_2L,28.91,28.82,0.3
+BLW-TrafficDS,PatchTST,D∞_2L,25.56,25.5,0.2
+BLW-TrafficDS,PatchTST,B,50.79,50.74,0.1
+BLW-TrafficDS,PatchTST,C (w_hat=0.1),26.71,26.69,0.1
+BLW-TrafficDS,PatchTST,C (w_hat=0.2),27.35,26.69,2.5
+BLW-TrafficDS,TimeMixer,D_L,29.5,29.45,0.2
+BLW-TrafficDS,TimeMixer,D¹_2L,31.45,31.4,0.2
+BLW-TrafficDS,TimeMixer,D∞_2L,30.91,30.84,0.2
+BLW-TrafficDS,TimeMixer,B,52.77,52.73,0.1
+BLW-TrafficDS,TimeMixer,C (w_hat=0.1),34.95,34.91,0.1
+BLW-TrafficDS,TimeMixer,C (w_hat=0.2),37.57,34.91,7.6
+SynthDS,iTransformer,D_L,10.71,10.78,-0.7
+SynthDS,iTransformer,D¹_2L,10.94,11.01,-0.7
+SynthDS,iTransformer,D∞_2L,11.32,12.34,-8.3
+SynthDS,iTransformer,B,25.77,29.08,-11.4
+SynthDS,iTransformer,C (w_hat=0.1),12.04,13.18,-8.6
+SynthDS,iTransformer,C (w_hat=0.2),12.29,13.18,-6.7
+SynthDS,DLinear,D_L,13.82,13.8,0.1
+SynthDS,DLinear,D¹_2L,13.39,13.6,-1.6
+SynthDS,DLinear,D∞_2L,14.68,15.05,-2.4
+SynthDS,DLinear,B,39.16,32.33,21.2
+SynthDS,DLinear,C (w_hat=0.1),18.59,17.12,8.6
+SynthDS,DLinear,C (w_hat=0.2),19.73,17.12,15.2
+SynthDS,PatchTST,D_L,10.31,10.68,-3.4
+SynthDS,PatchTST,D¹_2L,10.77,11.23,-4.1
+SynthDS,PatchTST,D∞_2L,11.09,12.13,-8.6
+SynthDS,PatchTST,B,26.43,29.1,-9.2
+SynthDS,PatchTST,C (w_hat=0.1),11.4,12.3,-7.3
+SynthDS,PatchTST,C (w_hat=0.2),11.36,12.3,-7.6
+SynthDS,TimeMixer,D_L,13.96,13.65,2.3
+SynthDS,TimeMixer,D¹_2L,13.83,14.22,-2.8
+SynthDS,TimeMixer,D∞_2L,15.54,16.48,-5.7
+SynthDS,TimeMixer,B,32.21,28.28,13.9
+SynthDS,TimeMixer,C (w_hat=0.1),14.56,14.6,-0.3
+SynthDS,TimeMixer,C (w_hat=0.2),15.16,14.6,3.9

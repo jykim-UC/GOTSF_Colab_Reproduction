@@ -1,0 +1,12 @@
+# 노트북이 실행 중에 만드는 작업 폴더 (공식 저장소 클론, 체크포인트, 예측 배열)
+gotsf/
+gotsf_release/
+# 가중치와 큰 배열은 GitHub Releases로 배포
+*.pth
+*.pk
+*.npy
+*.zip
+# 기타
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
