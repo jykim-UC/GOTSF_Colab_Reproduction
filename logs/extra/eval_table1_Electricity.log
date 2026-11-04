@@ -1,0 +1,413 @@
+Use GPU: cuda:0
+test 4424
+loading model
+mse:8936.5751953125, mae:32.885826110839844
+test 4424
+loading model
+mse:6820.89990234375, mae:10.783149719238281
+test 4424
+loading model
+mse:8092.1669921875, mae:8.82661247253418
+test 4424
+loading model
+mse:5364.93798828125, mae:3.867332696914673
+[eval] Electricity_iTransformer_none_appendix (17s)
+Use GPU: cuda:0
+test 4424
+Loading model...
+mse:41814.19140625, mae:81.74181365966797
+test 4424
+Loading model...
+mse:27876.580078125, mae:23.16461753845215
+test 4424
+Loading model...
+mse:31257.029296875, mae:17.169456481933594
+test 4424
+Loading model...
+mse:13368.634765625, mae:6.132376194000244
+[eval] Electricity_iTransformer_uniform_appendix (15s)
+Use GPU: cuda:0
+test 4424
+Loading model...
+mse:27447.0703125, mae:70.10576629638672
+test 4424
+Loading model...
+mse:21587.548828125, mae:20.053869247436523
+test 4424
+Loading model...
+mse:27616.54296875, mae:15.514344215393066
+test 4424
+Loading model...
+mse:11338.8505859375, mae:5.529726982116699
+[eval] Electricity_iTransformer_uniform02_appendix (15s)
+Use GPU: cuda:0
+test 4424
+Loading model...
+mse:26817.705078125, mae:68.96920776367188
+test 4424
+Loading model...
+mse:21016.234375, mae:20.77733612060547
+test 4424
+Loading model...
+mse:18490.16015625, mae:14.328407287597656
+test 4424
+Loading model...
+mse:8026.31884765625, mae:5.080290794372559
+Combined predictions - mse:26817.705078125, mae:68.96920776367188 (cover 1)
+Combined predictions - mse:26817.705078125, mae:68.96920776367188 (cover 1)
+Combined predictions - mse:21016.234375, mae:20.77733612060547 (cover 1)
+Combined predictions - mse:21016.234375, mae:20.77733612060547 (cover 1)
+Combined predictions - mse:18490.16015625, mae:14.328407287597656 (cover 1)
+Combined predictions - mse:18490.16015625, mae:14.328407287597656 (cover 1)
+Combined predictions - mse:8026.31982421875, mae:5.0802903175354 (cover 1)
+Combined predictions - mse:8026.31884765625, mae:5.080290794372559 (cover 1)
+[eval] Electricity_iTransformer_discrete4_appendix (41s)
+Use GPU: cuda:0
+test 4424
+Loading model...
+mse:14107.2607421875, mae:51.863189697265625
+test 4424
+Loading model...
+mse:9972.953125, mae:12.538505554199219
+test 4424
+Loading model...
+mse:10678.6376953125, mae:10.369349479675293
+test 4424
+Loading model...
+mse:9566.791015625, mae:9.6553316116333
+test 4424
+Loading model...
+mse:11021.869140625, mae:8.295331954956055
+test 4424
+Loading model...
+mse:20813.67578125, mae:8.584209442138672
+test 4424
+Loading model...
+mse:11352.0576171875, mae:4.755103588104248
+test 4424
+Loading model...
+mse:2498.101806640625, mae:1.386976957321167
+Combined predictions - mse:24037.732421875, mae:64.57856750488281 (cover 2)
+Combined predictions - mse:23838.19921875, mae:64.44828033447266 (cover 2)
+Combined predictions - mse:20264.638671875, mae:20.032310485839844 (cover 2)
+Combined predictions - mse:20229.029296875, mae:20.023330688476562 (cover 2)
+Combined predictions - mse:31817.19140625, mae:16.87272834777832 (cover 2)
+Combined predictions - mse:31832.076171875, mae:16.87981414794922 (cover 2)
+Combined predictions - mse:13847.1484375, mae:6.140898704528809 (cover 2)
+Combined predictions - mse:13854.3251953125, mae:6.143397331237793 (cover 2)
+[eval] Electricity_iTransformer_discrete8_appendix (74s)
+Use GPU: cuda:0
+test 4424
+loading model
+mse:10698.59375, mae:38.058837890625
+test 4424
+loading model
+mse:8049.7060546875, mae:11.79202938079834
+test 4424
+loading model
+mse:9224.0390625, mae:9.56881332397461
+test 4424
+loading model
+mse:5558.46142578125, mae:3.9534709453582764
+[eval] Electricity_DLinear_none_appendix (14s)
+Use GPU: cuda:0
+test 4424
+Loading model...
+mse:11029.1787109375, mae:41.65410614013672
+test 4424
+Loading model...
+mse:8066.25, mae:12.133885383605957
+test 4424
+Loading model...
+mse:8433.6357421875, mae:9.185651779174805
+test 4424
+Loading model...
+mse:4516.755859375, mae:3.563026189804077
+[eval] Electricity_DLinear_uniform_appendix (14s)
+Use GPU: cuda:0
+test 4424
+Loading model...
+mse:10619.9287109375, mae:39.840858459472656
+test 4424
+Loading model...
+mse:7566.66650390625, mae:11.519479751586914
+test 4424
+Loading model...
+mse:8098.6015625, mae:8.90700626373291
+test 4424
+Loading model...
+mse:4428.4326171875, mae:3.4893836975097656
+[eval] Electricity_DLinear_uniform02_appendix (13s)
+Use GPU: cuda:0
+test 4424
+Loading model...
+mse:10638.224609375, mae:38.942935943603516
+test 4424
+Loading model...
+mse:8090.82373046875, mae:11.99084758758545
+test 4424
+Loading model...
+mse:8822.802734375, mae:9.336875915527344
+test 4424
+Loading model...
+mse:4882.65673828125, mae:3.6788182258605957
+Combined predictions - mse:10638.224609375, mae:38.942935943603516 (cover 1)
+Combined predictions - mse:10638.224609375, mae:38.942935943603516 (cover 1)
+Combined predictions - mse:8090.82373046875, mae:11.99084758758545 (cover 1)
+Combined predictions - mse:8090.82373046875, mae:11.99084758758545 (cover 1)
+  expectation: 확률 합이 0인 원소 0.052% → 단순 평균으로 대체
+Combined predictions - mse:8822.8017578125, mae:9.33687686920166 (cover 1)
+Combined predictions - mse:8822.802734375, mae:9.336875915527344 (cover 1)
+  expectation: 확률 합이 0인 원소 7.132% → 단순 평균으로 대체
+Combined predictions - mse:4882.65625, mae:3.6788182258605957 (cover 1)
+Combined predictions - mse:4882.65673828125, mae:3.6788182258605957 (cover 1)
+[eval] Electricity_DLinear_discrete4_appendix (29s)
+Use GPU: cuda:0
+test 4424
+Loading model...
+mse:7460.9833984375, mae:33.154632568359375
+test 4424
+Loading model...
+mse:2977.08349609375, mae:6.55943489074707
+test 4424
+Loading model...
+mse:3239.494873046875, mae:5.325277328491211
+test 4424
+Loading model...
+mse:4419.2529296875, mae:6.364253520965576
+test 4424
+Loading model...
+mse:4566.83544921875, mae:4.985950946807861
+test 4424
+Loading model...
+mse:3760.978271484375, mae:4.141059398651123
+test 4424
+Loading model...
+mse:3097.887939453125, mae:2.5962188243865967
+test 4424
+Loading model...
+mse:1627.80029296875, mae:1.050673484802246
+Combined predictions - mse:10743.95703125, mae:40.31558609008789 (cover 2)
+Combined predictions - mse:10673.1650390625, mae:40.32595443725586 (cover 2)
+  expectation: 확률 합이 0인 원소 0.105% → 단순 평균으로 대체
+Combined predictions - mse:7754.732421875, mae:11.86532974243164 (cover 2)
+Combined predictions - mse:7566.275390625, mae:11.718842506408691 (cover 2)
+  expectation: 확률 합이 0인 원소 30.327% → 단순 평균으로 대체
+Combined predictions - mse:8455.3408203125, mae:9.187725067138672 (cover 2)
+Combined predictions - mse:8444.9443359375, mae:9.189166069030762 (cover 2)
+  expectation: 확률 합이 0인 원소 72.570% → 단순 평균으로 대체
+Combined predictions - mse:4758.6953125, mae:3.652984142303467 (cover 2)
+Combined predictions - mse:4780.59033203125, mae:3.66251277923584 (cover 2)
+[eval] Electricity_DLinear_discrete8_appendix (51s)
+Use GPU: cuda:0
+test 4424
+loading model
+mse:9554.333984375, mae:34.77537536621094
+test 4424
+loading model
+mse:6451.93115234375, mae:10.571553230285645
+test 4424
+loading model
+mse:8146.369140625, mae:8.779860496520996
+test 4424
+loading model
+mse:5086.87255859375, mae:3.7861568927764893
+[eval] Electricity_PatchTST_none_appendix (23s)
+Use GPU: cuda:0
+test 4424
+Loading model...
+mse:8050.87060546875, mae:36.68882751464844
+test 4424
+Loading model...
+mse:4526.1376953125, mae:9.554436683654785
+test 4424
+Loading model...
+mse:4539.296875, mae:6.769771099090576
+test 4424
+Loading model...
+mse:1821.6751708984375, mae:2.308624029159546
+[eval] Electricity_PatchTST_uniform_appendix (24s)
+Use GPU: cuda:0
+test 4424
+Loading model...
+mse:7618.9833984375, mae:35.40203857421875
+test 4424
+Loading model...
+mse:4373.08935546875, mae:9.169435501098633
+test 4424
+Loading model...
+mse:4529.50390625, mae:6.655964374542236
+test 4424
+Loading model...
+mse:1799.00146484375, mae:2.286665201187134
+[eval] Electricity_PatchTST_uniform02_appendix (22s)
+Use GPU: cuda:0
+test 4424
+Loading model...
+mse:6558.033203125, mae:33.58877944946289
+test 4424
+Loading model...
+mse:4105.6708984375, mae:9.301472663879395
+test 4424
+Loading model...
+mse:4134.5673828125, mae:6.6065287590026855
+test 4424
+Loading model...
+mse:1726.7427978515625, mae:2.2693424224853516
+  expectation: 확률 합이 0인 원소 6.151% → 단순 평균으로 대체
+Combined predictions - mse:6558.033203125, mae:33.58877944946289 (cover 1)
+Combined predictions - mse:6558.033203125, mae:33.58877944946289 (cover 1)
+  expectation: 확률 합이 0인 원소 94.542% → 단순 평균으로 대체
+Combined predictions - mse:4105.6708984375, mae:9.301472663879395 (cover 1)
+Combined predictions - mse:4105.6708984375, mae:9.301472663879395 (cover 1)
+  expectation: 확률 합이 0인 원소 97.044% → 단순 평균으로 대체
+Combined predictions - mse:4134.5673828125, mae:6.6065287590026855 (cover 1)
+Combined predictions - mse:4134.5673828125, mae:6.6065287590026855 (cover 1)
+  expectation: 확률 합이 0인 원소 99.042% → 단순 평균으로 대체
+Combined predictions - mse:1726.7425537109375, mae:2.2693424224853516 (cover 1)
+Combined predictions - mse:1726.7427978515625, mae:2.2693424224853516 (cover 1)
+[eval] Electricity_PatchTST_discrete4_appendix (50s)
+Use GPU: cuda:0
+test 4424
+Loading model...
+mse:3221.617919921875, mae:26.155073165893555
+test 4424
+Loading model...
+mse:1161.0408935546875, mae:4.363325595855713
+test 4424
+Loading model...
+mse:943.1297607421875, mae:3.293835401535034
+test 4424
+Loading model...
+mse:1319.045166015625, mae:3.930065155029297
+test 4424
+Loading model...
+mse:939.6305541992188, mae:2.446073055267334
+test 4424
+Loading model...
+mse:858.0426635742188, mae:2.16422176361084
+test 4424
+Loading model...
+mse:440.756103515625, mae:1.0425351858139038
+test 4424
+Loading model...
+mse:169.9862823486328, mae:0.38676753640174866
+  expectation: 확률 합이 0인 원소 6.496% → 단순 평균으로 대체
+Combined predictions - mse:5698.59814453125, mae:32.665225982666016 (cover 2)
+Combined predictions - mse:6285.6123046875, mae:33.08042907714844 (cover 2)
+  expectation: 확률 합이 0인 원소 94.467% → 단순 평균으로 대체
+Combined predictions - mse:4326.8623046875, mae:9.82746410369873 (cover 2)
+Combined predictions - mse:5513.55712890625, mae:10.5945463180542 (cover 2)
+  expectation: 확률 합이 0인 원소 97.002% → 단순 평균으로 대체
+Combined predictions - mse:4543.919921875, mae:7.183545112609863 (cover 2)
+Combined predictions - mse:5871.97705078125, mae:7.783278465270996 (cover 2)
+  expectation: 확률 합이 0인 원소 98.798% → 단순 평균으로 대체
+Combined predictions - mse:1651.758544921875, mae:2.314746141433716 (cover 2)
+Combined predictions - mse:1846.2447509765625, mae:2.2965774536132812 (cover 2)
+[eval] Electricity_PatchTST_discrete8_appendix (91s)
+Use GPU: cuda:0
+test 4424
+loading model
+mse:11527.30078125, mae:40.55841827392578
+test 4424
+loading model
+mse:8776.6240234375, mae:13.278393745422363
+test 4424
+loading model
+mse:10677.3486328125, mae:10.41755485534668
+test 4424
+loading model
+mse:5840.4091796875, mae:4.2781853675842285
+[eval] Electricity_TimeMixer_none_appendix (9s)
+Use GPU: cuda:0
+test 4424
+Loading model...
+mse:10937.6572265625, mae:43.991512298583984
+test 4424
+Loading model...
+mse:6872.97802734375, mae:11.800614356994629
+test 4424
+Loading model...
+mse:7555.9169921875, mae:8.881636619567871
+test 4424
+Loading model...
+mse:3987.89013671875, mae:3.4805092811584473
+[eval] Electricity_TimeMixer_uniform_appendix (9s)
+Use GPU: cuda:0
+test 4424
+Loading model...
+mse:11278.55859375, mae:44.62649917602539
+test 4424
+Loading model...
+mse:6744.751953125, mae:11.688628196716309
+test 4424
+Loading model...
+mse:7686.77587890625, mae:8.887575149536133
+test 4424
+Loading model...
+mse:3954.82958984375, mae:3.4502434730529785
+[eval] Electricity_TimeMixer_uniform02_appendix (9s)
+Use GPU: cuda:0
+test 4424
+Loading model...
+mse:8467.0888671875, mae:38.977481842041016
+test 4424
+Loading model...
+mse:5406.00537109375, mae:11.005680084228516
+test 4424
+Loading model...
+mse:6174.87060546875, mae:8.186442375183105
+test 4424
+Loading model...
+mse:3219.9541015625, mae:3.120687961578369
+  expectation: 확률 합이 0인 원소 5.583% → 단순 평균으로 대체
+Combined predictions - mse:8467.0888671875, mae:38.977481842041016 (cover 1)
+Combined predictions - mse:8467.0888671875, mae:38.977481842041016 (cover 1)
+  expectation: 확률 합이 0인 원소 79.269% → 단순 평균으로 대체
+Combined predictions - mse:5406.00537109375, mae:11.005680084228516 (cover 1)
+Combined predictions - mse:5406.00537109375, mae:11.005680084228516 (cover 1)
+  expectation: 확률 합이 0인 원소 96.134% → 단순 평균으로 대체
+Combined predictions - mse:6174.87060546875, mae:8.186442375183105 (cover 1)
+Combined predictions - mse:6174.87060546875, mae:8.186442375183105 (cover 1)
+  expectation: 확률 합이 0인 원소 98.773% → 단순 평균으로 대체
+Combined predictions - mse:3219.9541015625, mae:3.120687961578369 (cover 1)
+Combined predictions - mse:3219.9541015625, mae:3.120687961578369 (cover 1)
+[eval] Electricity_TimeMixer_discrete4_appendix (30s)
+Use GPU: cuda:0
+test 4424
+Loading model...
+mse:5498.796875, mae:34.329498291015625
+test 4424
+Loading model...
+mse:1772.0224609375, mae:5.72069787979126
+test 4424
+Loading model...
+mse:1799.2821044921875, mae:4.730090618133545
+test 4424
+Loading model...
+mse:2247.886962890625, mae:5.076321601867676
+test 4424
+Loading model...
+mse:1972.5899658203125, mae:3.5691628456115723
+test 4424
+Loading model...
+mse:1729.5228271484375, mae:2.968494176864624
+test 4424
+Loading model...
+mse:1076.3739013671875, mae:1.6332114934921265
+test 4424
+Loading model...
+mse:459.81939697265625, mae:0.6069722175598145
+  expectation: 확률 합이 0인 원소 5.385% → 단순 평균으로 대체
+Combined predictions - mse:9440.5556640625, mae:45.07687759399414 (cover 2)
+Combined predictions - mse:9149.3193359375, mae:43.31172180175781 (cover 2)
+  expectation: 확률 합이 0인 원소 91.067% → 단순 평균으로 대체
+Combined predictions - mse:6940.3955078125, mae:13.22743034362793 (cover 2)
+Combined predictions - mse:8508.4658203125, mae:14.584101676940918 (cover 2)
+  expectation: 확률 합이 0인 원소 96.095% → 단순 평균으로 대체
+Combined predictions - mse:5816.05322265625, mae:8.174991607666016 (cover 2)
+Combined predictions - mse:8110.509765625, mae:9.777189254760742 (cover 2)
+  expectation: 확률 합이 0인 원소 97.636% → 단순 평균으로 대체
+Combined predictions - mse:2242.371826171875, mae:2.6938552856445312 (cover 2)
+Combined predictions - mse:2590.255126953125, mae:2.8824055194854736 (cover 2)
+[eval] Electricity_TimeMixer_discrete8_appendix (60s)

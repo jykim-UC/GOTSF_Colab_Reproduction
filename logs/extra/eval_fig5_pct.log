@@ -1,0 +1,21 @@
+Use GPU: cuda:0
+test 182
+loading model
+mse:0.0010035316227003932, mae:0.012912547215819359
+[eval] fig5_pct_none (2s)
+Use GPU: cuda:0
+test 182
+Loading model...
+mse:0.0006647953996434808, mae:0.012541322037577629
+test 182
+Loading model...
+mse:0.0002192699903389439, mae:0.0009841398568823934
+test 182
+Loading model...
+mse:0.00021058421407360584, mae:0.0004669333284255117
+test 182
+Loading model...
+mse:9.884603059617803e-05, mae:0.00018681219080463052
+Combined predictions - mse:0.0010902289068326354, mae:0.014002394862473011 (cover 2)
+Combined predictions - mse:0.0010961575899273157, mae:0.014018332585692406 (cover 2)
+[eval] fig5_pct_discrete4 (2s)

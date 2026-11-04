@@ -1,0 +1,5 @@
+대상,정책,sleep 시간 오차 (h/일),에너지 오차 (Wh/일),논문 에너지 오차 (Wh/일),곡선 RMSE vs 논문 (%p)
+best match to paper's Perfect curve,B-Policy,0.9558823529411765,904.2647058823529,950.0,10.769566704072364
+best match to paper's Perfect curve,D-Policy,0.9852941176470589,932.0882352941177,337.0,7.221796799938907
+100 beams (avg of decisions),B-Policy,1.293186274509804,1223.3542156862745,950.0,5.963109149983193
+100 beams (avg of decisions),D-Policy,1.5275,1445.015,337.0,11.479966564808114

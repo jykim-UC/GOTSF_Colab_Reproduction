@@ -1,0 +1,775 @@
+Use GPU: cuda:0
+test 2935
+loading model
+mse:9.766123548615724e-05, mae:0.002796220127493143
+test 2935
+loading model
+mse:0.00011126282333862036, mae:0.0029968617018312216
+test 2935
+loading model
+mse:6.497609138023108e-05, mae:0.0013114773901179433
+test 2935
+loading model
+mse:6.34858661214821e-05, mae:0.0010099938372150064
+[eval] Traffic_iTransformer_none_appendix (11s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:5.304042133502662e-05, mae:0.002624168060719967
+test 2935
+Loading model...
+mse:3.589721745811403e-05, mae:0.002267792820930481
+test 2935
+Loading model...
+mse:3.467576971161179e-05, mae:0.0010520928772166371
+test 2935
+Loading model...
+mse:3.2293824915541336e-05, mae:0.0006996476440690458
+[eval] Traffic_iTransformer_uniform_appendix (11s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:5.651774336001836e-05, mae:0.0026779882609844208
+test 2935
+Loading model...
+mse:3.647955963970162e-05, mae:0.002267227740958333
+test 2935
+Loading model...
+mse:3.506696521071717e-05, mae:0.0010550892911851406
+test 2935
+Loading model...
+mse:3.2759609894128516e-05, mae:0.00070560397580266
+[eval] Traffic_iTransformer_uniform02_appendix (10s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:5.863263868377544e-05, mae:0.002922813408076763
+test 2935
+Loading model...
+mse:4.768262442667037e-05, mae:0.0026783491484820843
+test 2935
+Loading model...
+mse:4.2083727748831734e-05, mae:0.0011649748776108027
+test 2935
+Loading model...
+mse:4.822568371309899e-05, mae:0.0008963118307292461
+Combined predictions - mse:5.863263868377544e-05, mae:0.002922813408076763 (cover 1)
+Combined predictions - mse:5.863263868377544e-05, mae:0.002922813408076763 (cover 1)
+Combined predictions - mse:4.768262442667037e-05, mae:0.0026783491484820843 (cover 1)
+Combined predictions - mse:4.768262442667037e-05, mae:0.0026783491484820843 (cover 1)
+Combined predictions - mse:4.2083727748831734e-05, mae:0.0011649747611954808 (cover 1)
+Combined predictions - mse:4.2083727748831734e-05, mae:0.0011649748776108027 (cover 1)
+Combined predictions - mse:4.822568007512018e-05, mae:0.0008963118307292461 (cover 1)
+Combined predictions - mse:4.822568371309899e-05, mae:0.0008963118307292461 (cover 1)
+[eval] Traffic_iTransformer_discrete4_appendix (27s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:3.681634188978933e-05, mae:0.0015683852834627032
+test 2935
+Loading model...
+mse:1.7767502868082374e-05, mae:0.0012715853517875075
+test 2935
+Loading model...
+mse:2.410045090073254e-05, mae:0.0016070056008175015
+test 2935
+Loading model...
+mse:2.2309390260488726e-05, mae:0.0010463837534189224
+test 2935
+Loading model...
+mse:1.9103770682704635e-05, mae:0.0006392585346475244
+test 2935
+Loading model...
+mse:1.8448308765073307e-05, mae:0.0004608158487826586
+test 2935
+Loading model...
+mse:2.0588096958817914e-05, mae:0.0004311130032874644
+test 2935
+Loading model...
+mse:2.3668473659199663e-05, mae:0.00042569387005642056
+Combined predictions - mse:5.756594327976927e-05, mae:0.0028875439893454313 (cover 2)
+Combined predictions - mse:5.860429519088939e-05, mae:0.0029109343886375427 (cover 2)
+Combined predictions - mse:4.7851553972577676e-05, mae:0.0026832635048776865 (cover 2)
+Combined predictions - mse:4.92175568069797e-05, mae:0.0027123831678181887 (cover 2)
+Combined predictions - mse:4.111033194931224e-05, mae:0.0011502568377181888 (cover 2)
+Combined predictions - mse:4.313274985179305e-05, mae:0.00117794971447438 (cover 2)
+Combined predictions - mse:4.5677978050662205e-05, mae:0.0008700331673026085 (cover 2)
+Combined predictions - mse:4.92458748340141e-05, mae:0.0009079492301680148 (cover 2)
+[eval] Traffic_iTransformer_discrete8_appendix (49s)
+Use GPU: cuda:0
+test 2935
+loading model
+mse:0.0001763508189469576, mae:0.0036255591548979282
+test 2935
+loading model
+mse:0.00021031763753853738, mae:0.0039755539037287235
+test 2935
+loading model
+mse:9.721556125441566e-05, mae:0.001603436190634966
+test 2935
+loading model
+mse:8.602628804510459e-05, mae:0.001174595090560615
+[eval] Traffic_DLinear_none_appendix (10s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:0.00010251167987007648, mae:0.003738870145753026
+test 2935
+Loading model...
+mse:0.00010728940105764195, mae:0.0033373080659657717
+test 2935
+Loading model...
+mse:5.031090404372662e-05, mae:0.0012037071865051985
+test 2935
+Loading model...
+mse:4.730420914711431e-05, mae:0.0008870977908372879
+[eval] Traffic_DLinear_uniform_appendix (9s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:0.00010751131048891693, mae:0.003768636379390955
+test 2935
+Loading model...
+mse:0.0001126089773606509, mae:0.0033872874919325113
+test 2935
+Loading model...
+mse:5.228714508120902e-05, mae:0.0012231514556333423
+test 2935
+Loading model...
+mse:4.892583820037544e-05, mae:0.0009012104128487408
+[eval] Traffic_DLinear_uniform02_appendix (10s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:0.00015081749006640166, mae:0.00354253058321774
+test 2935
+Loading model...
+mse:0.00017324904911220074, mae:0.0037804017774760723
+test 2935
+Loading model...
+mse:8.184450416592881e-05, mae:0.0015072227688506246
+test 2935
+Loading model...
+mse:7.77899767854251e-05, mae:0.0011296123266220093
+Combined predictions - mse:0.00015081749006640166, mae:0.00354253058321774 (cover 1)
+Combined predictions - mse:0.00015081749006640166, mae:0.00354253058321774 (cover 1)
+Combined predictions - mse:0.00017324904911220074, mae:0.0037804017774760723 (cover 1)
+Combined predictions - mse:0.00017324904911220074, mae:0.0037804017774760723 (cover 1)
+Combined predictions - mse:8.18444968899712e-05, mae:0.0015072227688506246 (cover 1)
+Combined predictions - mse:8.184450416592881e-05, mae:0.0015072227688506246 (cover 1)
+Combined predictions - mse:7.77899767854251e-05, mae:0.0011296123266220093 (cover 1)
+Combined predictions - mse:7.77899767854251e-05, mae:0.0011296123266220093 (cover 1)
+[eval] Traffic_DLinear_discrete4_appendix (19s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:8.194224210456014e-05, mae:0.001848055748268962
+test 2935
+Loading model...
+mse:5.9791727835545316e-05, mae:0.0017192380037158728
+test 2935
+Loading model...
+mse:8.597764099249616e-05, mae:0.0022503496147692204
+test 2935
+Loading model...
+mse:7.264039595611393e-05, mae:0.0015266070840880275
+test 2935
+Loading model...
+mse:4.282220470486209e-05, mae:0.0008678293088451028
+test 2935
+Loading model...
+mse:3.0349940061569214e-05, mae:0.0005799550563097
+test 2935
+Loading model...
+mse:3.2451876904815435e-05, mae:0.0005392810562625527
+test 2935
+Loading model...
+mse:3.8771468098275363e-05, mae:0.0005510396440513432
+Combined predictions - mse:0.000144962192280218, mae:0.0036423848941922188 (cover 2)
+Combined predictions - mse:0.0001456284080632031, mae:0.0036552215460687876 (cover 2)
+Combined predictions - mse:0.00016029724793042988, mae:0.0038130406755954027 (cover 2)
+Combined predictions - mse:0.0001610433537280187, mae:0.003839570563286543 (cover 2)
+Combined predictions - mse:7.406929944409057e-05, mae:0.0014558841940015554 (cover 2)
+Combined predictions - mse:7.415191794279963e-05, mae:0.0014603378949686885 (cover 2)
+Combined predictions - mse:7.206454029073939e-05, mae:0.0010963298846036196 (cover 2)
+Combined predictions - mse:7.242669380502775e-05, mae:0.0010999173391610384 (cover 2)
+[eval] Traffic_DLinear_discrete8_appendix (34s)
+Use GPU: cuda:0
+test 2935
+loading model
+mse:0.0003292291075922549, mae:0.0035534300841391087
+test 2935
+loading model
+mse:0.0002103933657053858, mae:0.0035652637016028166
+test 2935
+loading model
+mse:6.984256469877437e-05, mae:0.0014075114158913493
+test 2935
+loading model
+mse:7.872238347772509e-05, mae:0.001138642430305481
+[eval] Traffic_PatchTST_none_appendix (16s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:3.97362164221704e-05, mae:0.0026006996631622314
+test 2935
+Loading model...
+mse:2.534637133067008e-05, mae:0.002061364008113742
+test 2935
+Loading model...
+mse:1.259646796825109e-05, mae:0.0006760912365280092
+test 2935
+Loading model...
+mse:8.32861041999422e-06, mae:0.0003799700934905559
+[eval] Traffic_PatchTST_uniform_appendix (15s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:3.238863791921176e-05, mae:0.0021714335307478905
+test 2935
+Loading model...
+mse:2.01537404791452e-05, mae:0.001745962304994464
+test 2935
+Loading model...
+mse:9.891729860100895e-06, mae:0.0005945620941929519
+test 2935
+Loading model...
+mse:5.491352112585446e-06, mae:0.0003215561737306416
+[eval] Traffic_PatchTST_uniform02_appendix (15s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:5.494801007444039e-05, mae:0.0025377371348440647
+test 2935
+Loading model...
+mse:2.857350955309812e-05, mae:0.002045727800577879
+test 2935
+Loading model...
+mse:2.7552014216780663e-05, mae:0.0009166288655251265
+test 2935
+Loading model...
+mse:3.318716335343197e-05, mae:0.0007064144010655582
+Combined predictions - mse:5.494801007444039e-05, mae:0.0025377366691827774 (cover 1)
+Combined predictions - mse:5.494801007444039e-05, mae:0.0025377371348440647 (cover 1)
+Combined predictions - mse:2.857350955309812e-05, mae:0.002045727800577879 (cover 1)
+Combined predictions - mse:2.857350955309812e-05, mae:0.002045727800577879 (cover 1)
+Combined predictions - mse:2.755201785475947e-05, mae:0.0009166287491098046 (cover 1)
+Combined predictions - mse:2.7552014216780663e-05, mae:0.0009166288655251265 (cover 1)
+Combined predictions - mse:3.318716335343197e-05, mae:0.0007064144010655582 (cover 1)
+Combined predictions - mse:3.318716335343197e-05, mae:0.0007064144010655582 (cover 1)
+[eval] Traffic_PatchTST_discrete4_appendix (32s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:3.2312727853422984e-05, mae:0.001284607918933034
+test 2935
+Loading model...
+mse:1.4247836588765495e-05, mae:0.0010988294379785657
+test 2935
+Loading model...
+mse:1.363761748507386e-05, mae:0.0011891118483617902
+test 2935
+Loading model...
+mse:1.0644001122273039e-05, mae:0.0007191929034888744
+test 2935
+Loading model...
+mse:1.0255534107272979e-05, mae:0.0004516475019045174
+test 2935
+Loading model...
+mse:1.2089217307220679e-05, mae:0.000354085088474676
+test 2935
+Loading model...
+mse:1.3763311471848283e-05, mae:0.0003279859374742955
+test 2935
+Loading model...
+mse:1.5840723790461197e-05, mae:0.000323181418934837
+Combined predictions - mse:5.0536662456579506e-05, mae:0.0024606608785688877 (cover 2)
+Combined predictions - mse:5.171051816432737e-05, mae:0.002474294975399971 (cover 2)
+Combined predictions - mse:2.7745885745389387e-05, mae:0.00201063952408731 (cover 2)
+Combined predictions - mse:2.9192911824793555e-05, mae:0.0020433459430933 (cover 2)
+Combined predictions - mse:2.6216708647552878e-05, mae:0.0008899103268049657 (cover 2)
+Combined predictions - mse:3.011776425410062e-05, mae:0.0009593073045834899 (cover 2)
+Combined predictions - mse:3.232410745113157e-05, mae:0.0006919336155988276 (cover 2)
+Combined predictions - mse:3.7576166505459696e-05, mae:0.0007762688328512013 (cover 2)
+[eval] Traffic_PatchTST_discrete8_appendix (59s)
+Use GPU: cuda:0
+test 2935
+loading model
+mse:0.00013728078920394182, mae:0.004123779945075512
+test 2935
+loading model
+mse:0.00011908189480891451, mae:0.003667499404400587
+test 2935
+loading model
+mse:6.378767284331843e-05, mae:0.0013760472647845745
+test 2935
+loading model
+mse:7.472376455552876e-05, mae:0.0011491341283544898
+[eval] Traffic_TimeMixer_none_appendix (6s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:8.163131860783324e-05, mae:0.003804365638643503
+test 2935
+Loading model...
+mse:4.2098625272046775e-05, mae:0.0026625008322298527
+test 2935
+Loading model...
+mse:2.546237374190241e-05, mae:0.0009357875678688288
+test 2935
+Loading model...
+mse:2.4473290977766737e-05, mae:0.0006435575196519494
+[eval] Traffic_TimeMixer_uniform_appendix (6s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:8.006425196072087e-05, mae:0.0038166488520801067
+test 2935
+Loading model...
+mse:4.1597824747441337e-05, mae:0.0026451919693499804
+test 2935
+Loading model...
+mse:2.556484287197236e-05, mae:0.0009407320758327842
+test 2935
+Loading model...
+mse:2.4929702703957446e-05, mae:0.0006499183364212513
+[eval] Traffic_TimeMixer_uniform02_appendix (6s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:8.862058894010261e-05, mae:0.004005276132375002
+test 2935
+Loading model...
+mse:5.441523899207823e-05, mae:0.0029688384383916855
+test 2935
+Loading model...
+mse:3.638470661826432e-05, mae:0.001117652514949441
+test 2935
+Loading model...
+mse:4.7194993385346606e-05, mae:0.0009093722328543663
+Combined predictions - mse:8.862058894010261e-05, mae:0.004005276132375002 (cover 1)
+Combined predictions - mse:8.862058894010261e-05, mae:0.004005276132375002 (cover 1)
+Combined predictions - mse:5.441523899207823e-05, mae:0.0029688384383916855 (cover 1)
+Combined predictions - mse:5.441523899207823e-05, mae:0.0029688384383916855 (cover 1)
+Combined predictions - mse:3.638470661826432e-05, mae:0.001117652514949441 (cover 1)
+Combined predictions - mse:3.638470661826432e-05, mae:0.001117652514949441 (cover 1)
+  expectation: 확률 합이 0인 원소 0.000% → 단순 평균으로 대체
+Combined predictions - mse:4.7194993385346606e-05, mae:0.0009093722328543663 (cover 1)
+Combined predictions - mse:4.7194993385346606e-05, mae:0.0009093722328543663 (cover 1)
+[eval] Traffic_TimeMixer_discrete4_appendix (19s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:6.0387646954040974e-05, mae:0.002648609923198819
+test 2935
+Loading model...
+mse:3.138916508760303e-05, mae:0.001812349888496101
+test 2935
+Loading model...
+mse:3.781298073590733e-05, mae:0.0021913633681833744
+test 2935
+Loading model...
+mse:2.7863814466400072e-05, mae:0.0012771597830578685
+test 2935
+Loading model...
+mse:2.0515381038421765e-05, mae:0.0007166662253439426
+test 2935
+Loading model...
+mse:2.366446642554365e-05, mae:0.0005648282240144908
+test 2935
+Loading model...
+mse:3.139208274660632e-05, mae:0.0005876083741895854
+test 2935
+Loading model...
+mse:4.2293853766750544e-05, mae:0.0006535525899380445
+Combined predictions - mse:9.75061411736533e-05, mae:0.004694923758506775 (cover 2)
+Combined predictions - mse:9.590281842974946e-05, mae:0.004651881754398346 (cover 2)
+Combined predictions - mse:6.899700383655727e-05, mae:0.0035558827221393585 (cover 2)
+Combined predictions - mse:7.223743887152523e-05, mae:0.003660009242594242 (cover 2)
+Combined predictions - mse:4.733194873551838e-05, mae:0.0013164057163521647 (cover 2)
+Combined predictions - mse:5.1389815780567005e-05, mae:0.0013816335704177618 (cover 2)
+Combined predictions - mse:7.621408440172672e-05, mae:0.0012567922240123153 (cover 2)
+Combined predictions - mse:8.300630724988878e-05, mae:0.0013268438633531332 (cover 2)
+[eval] Traffic_TimeMixer_discrete8_appendix (35s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:4.7567988076480106e-05, mae:0.0028398558497428894
+test 2935
+Loading model...
+mse:4.445665399543941e-05, mae:0.002691129455342889
+test 2935
+Loading model...
+mse:3.9755610487191007e-05, mae:0.0011531278723850846
+test 2935
+Loading model...
+mse:4.14757159887813e-05, mae:0.0008145554456859827
+Combined predictions - mse:4.7567988076480106e-05, mae:0.0028398558497428894 (cover 1)
+Combined predictions - mse:4.7567988076480106e-05, mae:0.0028398558497428894 (cover 1)
+Combined predictions - mse:4.445665399543941e-05, mae:0.002691129455342889 (cover 1)
+Combined predictions - mse:4.445665399543941e-05, mae:0.002691129455342889 (cover 1)
+Combined predictions - mse:3.9755610487191007e-05, mae:0.0011531279888004065 (cover 1)
+Combined predictions - mse:3.9755610487191007e-05, mae:0.0011531278723850846 (cover 1)
+Combined predictions - mse:4.14757159887813e-05, mae:0.0008145554456859827 (cover 1)
+Combined predictions - mse:4.14757159887813e-05, mae:0.0008145554456859827 (cover 1)
+[eval] Traffic_iTransformer_discrete4_appendix_nuscaled (29s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:1.8341319446335547e-05, mae:0.0013245110167190433
+test 2935
+Loading model...
+mse:1.4264849596656859e-05, mae:0.00124044727999717
+test 2935
+Loading model...
+mse:2.2647218429483473e-05, mae:0.0016291987849399447
+test 2935
+Loading model...
+mse:2.0671390302595682e-05, mae:0.001031731953844428
+test 2935
+Loading model...
+mse:1.761300882208161e-05, mae:0.0006236411863937974
+test 2935
+Loading model...
+mse:1.4960964108468033e-05, mae:0.0004149226297158748
+test 2935
+Loading model...
+mse:1.75283093994949e-05, mae:0.00038765784120187163
+test 2935
+Loading model...
+mse:1.9877112208632752e-05, mae:0.000383542210329324
+Combined predictions - mse:4.409158282214776e-05, mae:0.002772884676232934 (cover 2)
+Combined predictions - mse:4.747699131257832e-05, mae:0.002835852326825261 (cover 2)
+Combined predictions - mse:4.5648670493392274e-05, mae:0.002717189025133848 (cover 2)
+Combined predictions - mse:4.7342076868517324e-05, mae:0.002765233861282468 (cover 2)
+Combined predictions - mse:3.855273098452017e-05, mae:0.001138844876550138 (cover 2)
+Combined predictions - mse:3.9718433981761336e-05, mae:0.0011530026094987988 (cover 2)
+Combined predictions - mse:3.904052573489025e-05, mae:0.0007904095691628754 (cover 2)
+Combined predictions - mse:3.884394755004905e-05, mae:0.0007910093991085887 (cover 2)
+[eval] Traffic_iTransformer_discrete8_appendix_nuscaled (51s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:5.2056599088246e-05, mae:0.003162730485200882
+test 2935
+Loading model...
+mse:5.860145029146224e-05, mae:0.0031056583393365145
+test 2935
+Loading model...
+mse:5.055554356658831e-05, mae:0.0013264936860650778
+test 2935
+Loading model...
+mse:5.116330794407986e-05, mae:0.0008954610675573349
+Combined predictions - mse:5.2056599088246e-05, mae:0.003162730485200882 (cover 1)
+Combined predictions - mse:5.2056599088246e-05, mae:0.003162730485200882 (cover 1)
+Combined predictions - mse:5.860145392944105e-05, mae:0.0031056583393365145 (cover 1)
+Combined predictions - mse:5.860145029146224e-05, mae:0.0031056583393365145 (cover 1)
+Combined predictions - mse:5.055554356658831e-05, mae:0.0013264936860650778 (cover 1)
+Combined predictions - mse:5.055554356658831e-05, mae:0.0013264936860650778 (cover 1)
+Combined predictions - mse:5.116330794407986e-05, mae:0.0008954610675573349 (cover 1)
+Combined predictions - mse:5.116330794407986e-05, mae:0.0008954610675573349 (cover 1)
+[eval] Traffic_iTransformer_discrete4_appendix_nuinf (50s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:1.4073561942495871e-05, mae:0.001353410305455327
+test 2935
+Loading model...
+mse:1.4888317309669219e-05, mae:0.0013238413957878947
+test 2935
+Loading model...
+mse:2.59155949606793e-05, mae:0.0017396864714100957
+test 2935
+Loading model...
+mse:2.388965913269203e-05, mae:0.001112317549996078
+test 2935
+Loading model...
+mse:2.1575224309344776e-05, mae:0.0006859173299744725
+test 2935
+Loading model...
+mse:1.7426482372684404e-05, mae:0.00044739997247233987
+test 2935
+Loading model...
+mse:2.1092106180731207e-05, mae:0.00042073626536875963
+test 2935
+Loading model...
+mse:2.1712252419092692e-05, mae:0.00039719801861792803
+Combined predictions - mse:4.4046952098142356e-05, mae:0.002962960861623287 (cover 2)
+Combined predictions - mse:4.918270497000776e-05, mae:0.0030840346589684486 (cover 2)
+Combined predictions - mse:5.10868921992369e-05, mae:0.002881767926737666 (cover 2)
+Combined predictions - mse:5.222617619438097e-05, mae:0.002921296050772071 (cover 2)
+Combined predictions - mse:4.502255978877656e-05, mae:0.0012301860842853785 (cover 2)
+Combined predictions - mse:4.3367588659748435e-05, mae:0.0012064315378665924 (cover 2)
+Combined predictions - mse:4.4862026697956026e-05, mae:0.0008383904932998121 (cover 2)
+Combined predictions - mse:4.334155528340489e-05, mae:0.0008314638980664313 (cover 2)
+[eval] Traffic_iTransformer_discrete8_appendix_nuinf (99s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:9.669338760431856e-05, mae:0.0035449694842100143
+test 2935
+Loading model...
+mse:0.00010391878458904102, mae:0.0032784135546535254
+test 2935
+Loading model...
+mse:4.8684869398130104e-05, mae:0.0011785904644057155
+test 2935
+Loading model...
+mse:4.537591667030938e-05, mae:0.0008676142897456884
+Combined predictions - mse:9.669338760431856e-05, mae:0.0035449694842100143 (cover 1)
+Combined predictions - mse:9.669338760431856e-05, mae:0.0035449694842100143 (cover 1)
+Combined predictions - mse:0.00010391878458904102, mae:0.003278413088992238 (cover 1)
+Combined predictions - mse:0.00010391878458904102, mae:0.0032784135546535254 (cover 1)
+Combined predictions - mse:4.86848657601513e-05, mae:0.0011785904644057155 (cover 1)
+Combined predictions - mse:4.8684869398130104e-05, mae:0.0011785904644057155 (cover 1)
+Combined predictions - mse:4.537591667030938e-05, mae:0.0008676143479533494 (cover 1)
+Combined predictions - mse:4.537591667030938e-05, mae:0.0008676142897456884 (cover 1)
+[eval] Traffic_DLinear_discrete4_appendix_nuscaled (22s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:2.5481309421593323e-05, mae:0.0016588135622441769
+test 2935
+Loading model...
+mse:1.6935142411966808e-05, mae:0.0013235271908342838
+test 2935
+Loading model...
+mse:2.2203494154382497e-05, mae:0.00152190204244107
+test 2935
+Loading model...
+mse:1.6276004316750914e-05, mae:0.0008409089641645551
+test 2935
+Loading model...
+mse:9.520931598672178e-06, mae:0.00043834978714585304
+test 2935
+Loading model...
+mse:6.74153670843225e-06, mae:0.00027972960378974676
+test 2935
+Loading model...
+mse:7.134482530091191e-06, mae:0.00025616277707740664
+test 2935
+Loading model...
+mse:8.53732581163058e-06, mae:0.00026293820701539516
+Combined predictions - mse:6.316977669484913e-05, mae:0.0036127076018601656 (cover 2)
+Combined predictions - mse:6.971676339162514e-05, mae:0.0037833505775779486 (cover 2)
+Combined predictions - mse:5.467718801810406e-05, mae:0.0029413606971502304 (cover 2)
+Combined predictions - mse:6.146657688077539e-05, mae:0.003093267325311899 (cover 2)
+Combined predictions - mse:2.3083870473783463e-05, mae:0.0008749120170250535 (cover 2)
+Combined predictions - mse:2.4356131689273752e-05, mae:0.0008977657416835427 (cover 2)
+Combined predictions - mse:2.1500274669961073e-05, mae:0.0006147170206531882 (cover 2)
+Combined predictions - mse:2.38019729295047e-05, mae:0.0006563966162502766 (cover 2)
+[eval] Traffic_DLinear_discrete8_appendix_nuscaled (35s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:3.4577358746901155e-05, mae:0.0022486106026917696
+test 2935
+Loading model...
+mse:2.2502414140035398e-05, mae:0.0018974186386913061
+test 2935
+Loading model...
+mse:1.2390033589326777e-05, mae:0.000652284303214401
+test 2935
+Loading model...
+mse:6.407145974662853e-06, mae:0.0003392562794033438
+Combined predictions - mse:3.4577358746901155e-05, mae:0.0022486106026917696 (cover 1)
+Combined predictions - mse:3.4577358746901155e-05, mae:0.0022486106026917696 (cover 1)
+Combined predictions - mse:2.2502412321045995e-05, mae:0.0018974186386913061 (cover 1)
+Combined predictions - mse:2.2502414140035398e-05, mae:0.0018974186386913061 (cover 1)
+Combined predictions - mse:1.2390033589326777e-05, mae:0.0006522843614220619 (cover 1)
+Combined predictions - mse:1.2390033589326777e-05, mae:0.000652284303214401 (cover 1)
+Combined predictions - mse:6.407145065168152e-06, mae:0.0003392562794033438 (cover 1)
+Combined predictions - mse:6.407145974662853e-06, mae:0.0003392562794033438 (cover 1)
+[eval] Traffic_PatchTST_discrete4_appendix_nuscaled (32s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:2.1246100004645996e-05, mae:0.0018799628596752882
+test 2935
+Loading model...
+mse:1.405547845934052e-05, mae:0.001384655712172389
+test 2935
+Loading model...
+mse:1.4816476323176175e-05, mae:0.0014616878470405936
+test 2935
+Loading model...
+mse:8.74293709784979e-06, mae:0.0007358245202340186
+test 2935
+Loading model...
+mse:5.061688625573879e-06, mae:0.0003581614582799375
+test 2935
+Loading model...
+mse:3.077367864534608e-06, mae:0.00019571026496123523
+test 2935
+Loading model...
+mse:2.494768978067441e-06, mae:0.0001518259959993884
+test 2935
+Loading model...
+mse:2.334509872525814e-06, mae:0.00013729481725022197
+Combined predictions - mse:4.664508014684543e-05, mae:0.0034642317332327366 (cover 2)
+Combined predictions - mse:5.323310324456543e-05, mae:0.003690395038574934 (cover 2)
+Combined predictions - mse:3.3400359825463966e-05, mae:0.0025314558297395706 (cover 2)
+Combined predictions - mse:3.848920823656954e-05, mae:0.0026693178806453943 (cover 2)
+Combined predictions - mse:1.4937090782041196e-05, mae:0.0007390880491584539 (cover 2)
+Combined predictions - mse:2.1437541363411583e-05, mae:0.0008706458611413836 (cover 2)
+Combined predictions - mse:9.036615665536374e-06, mae:0.0004018412728328258 (cover 2)
+Combined predictions - mse:1.335894557996653e-05, mae:0.0004855767183471471 (cover 2)
+[eval] Traffic_PatchTST_discrete8_appendix_nuscaled (62s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:6.892896635690704e-05, mae:0.0038743370678275824
+test 2935
+Loading model...
+mse:3.950076279579662e-05, mae:0.0027080730069428682
+test 2935
+Loading model...
+mse:1.8055756299872883e-05, mae:0.0007973140454851091
+test 2935
+Loading model...
+mse:1.2955123565916438e-05, mae:0.00046717500663362443
+Combined predictions - mse:6.892896635690704e-05, mae:0.0038743370678275824 (cover 1)
+Combined predictions - mse:6.892896635690704e-05, mae:0.0038743370678275824 (cover 1)
+Combined predictions - mse:3.950076279579662e-05, mae:0.0027080730069428682 (cover 1)
+Combined predictions - mse:3.950076279579662e-05, mae:0.0027080730069428682 (cover 1)
+Combined predictions - mse:1.8055756299872883e-05, mae:0.0007973140454851091 (cover 1)
+Combined predictions - mse:1.8055756299872883e-05, mae:0.0007973140454851091 (cover 1)
+Combined predictions - mse:1.2955123565916438e-05, mae:0.00046717500663362443 (cover 1)
+Combined predictions - mse:1.2955123565916438e-05, mae:0.00046717500663362443 (cover 1)
+[eval] Traffic_TimeMixer_discrete4_appendix_nuscaled (19s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:4.633622302208096e-05, mae:0.0027710122521966696
+test 2935
+Loading model...
+mse:2.8369619030854665e-05, mae:0.0019258897518739104
+test 2935
+Loading model...
+mse:2.8813212338718586e-05, mae:0.0020127324387431145
+test 2935
+Loading model...
+mse:1.714971222099848e-05, mae:0.0010206097504124045
+test 2935
+Loading model...
+mse:9.401145689480472e-06, mae:0.0004767720529343933
+test 2935
+Loading model...
+mse:7.105733857315499e-06, mae:0.0002934484218712896
+test 2935
+Loading model...
+mse:7.932068001537118e-06, mae:0.0002711646957322955
+test 2935
+Loading model...
+mse:1.0566633136477321e-05, mae:0.00029867017292417586
+Combined predictions - mse:0.00011133521911688149, mae:0.006066161207854748 (cover 2)
+Combined predictions - mse:0.00012377288658171892, mae:0.006326417904347181 (cover 2)
+Combined predictions - mse:6.64989638607949e-05, mae:0.0037725805304944515 (cover 2)
+Combined predictions - mse:7.193780038505793e-05, mae:0.0038081277161836624 (cover 2)
+Combined predictions - mse:2.3980819605640136e-05, mae:0.0009585287189111114 (cover 2)
+Combined predictions - mse:2.6902222089120187e-05, mae:0.0009882922749966383 (cover 2)
+Combined predictions - mse:2.2546102627529763e-05, mae:0.0006315442151390016 (cover 2)
+Combined predictions - mse:2.9409882699837908e-05, mae:0.0007455231971107423 (cover 2)
+[eval] Traffic_TimeMixer_discrete8_appendix_nuscaled (37s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:2.487404526618775e-05, mae:0.0014888576697558165
+test 2935
+Loading model...
+mse:1.6451693227281794e-05, mae:0.0012298331130295992
+test 2935
+Loading model...
+mse:2.244291863462422e-05, mae:0.001442799111828208
+test 2935
+Loading model...
+mse:1.7407151972292922e-05, mae:0.000830942764878273
+test 2935
+Loading model...
+mse:1.0314101018593647e-05, mae:0.0004430512199178338
+test 2935
+Loading model...
+mse:7.3255491770396475e-06, mae:0.00028733728686347604
+test 2935
+Loading model...
+mse:7.774210644129198e-06, mae:0.0002656866272445768
+test 2935
+Loading model...
+mse:9.308258086093701e-06, mae:0.00027252445579506457
+Combined predictions - mse:5.748274634242989e-05, mae:0.0030709230341017246 (cover 2)
+Combined predictions - mse:6.417957047233358e-05, mae:0.0033624405041337013 (cover 2)
+Combined predictions - mse:5.325182792148553e-05, mae:0.0027268677949905396 (cover 2)
+Combined predictions - mse:5.9836504078703e-05, mae:0.002919768216088414 (cover 2)
+Combined predictions - mse:2.4431885321973823e-05, mae:0.0008826710400171578 (cover 2)
+Combined predictions - mse:2.766819488897454e-05, mae:0.0009340650285594165 (cover 2)
+Combined predictions - mse:2.170556763303466e-05, mae:0.000608120288234204 (cover 2)
+Combined predictions - mse:2.5067885871976614e-05, mae:0.0006642142543569207 (cover 2)
+[eval] Traffic_DLinear_discrete8_appendix_nuscaled_p50 (40s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:9.801845408219378e-06, mae:0.0009431653306819499
+test 2935
+Loading model...
+mse:7.226087745948462e-06, mae:0.0009089011582545936
+test 2935
+Loading model...
+mse:8.062589586188551e-06, mae:0.0010016346350312233
+test 2935
+Loading model...
+mse:5.288894499244634e-06, mae:0.0005457766819745302
+test 2935
+Loading model...
+mse:2.9954785532027017e-06, mae:0.0002680153993424028
+test 2935
+Loading model...
+mse:1.6736138377382304e-06, mae:0.00014463406114373356
+test 2935
+Loading model...
+mse:1.1416234428907046e-06, mae:0.00010485720122233033
+test 2935
+Loading model...
+mse:9.270012242268422e-07, mae:8.913859346648678e-05
+Combined predictions - mse:2.862250039470382e-05, mae:0.002103884005919099 (cover 2)
+Combined predictions - mse:3.235065742046572e-05, mae:0.002173598622903228 (cover 2)
+Combined predictions - mse:2.0921530449413694e-05, mae:0.0018281741067767143 (cover 2)
+Combined predictions - mse:2.3360598788713105e-05, mae:0.0018911643419414759 (cover 2)
+Combined predictions - mse:1.0864455362025183e-05, mae:0.0006144296494312584 (cover 2)
+Combined predictions - mse:1.618429996597115e-05, mae:0.0007198747480288148 (cover 2)
+Combined predictions - mse:5.7155352806148585e-06, mae:0.0003261463425587863 (cover 2)
+Combined predictions - mse:9.182081157632638e-06, mae:0.00039283951628021896 (cover 2)
+[eval] Traffic_PatchTST_discrete8_appendix_nuscaled_p50 (62s)
+Use GPU: cuda:0
+test 2935
+Loading model...
+mse:2.9266788260429166e-05, mae:0.0018383814021945
+test 2935
+Loading model...
+mse:1.3294049495016225e-05, mae:0.0013079025084152818
+test 2935
+Loading model...
+mse:1.4254768757382408e-05, mae:0.0014054877683520317
+test 2935
+Loading model...
+mse:8.220358722610399e-06, mae:0.0007048241677694023
+test 2935
+Loading model...
+mse:4.423617610882502e-06, mae:0.00032906662090681493
+test 2935
+Loading model...
+mse:2.843633637894527e-06, mae:0.0001872894208645448
+test 2935
+Loading model...
+mse:2.548476004449185e-06, mae:0.00015107022773008794
+test 2935
+Loading model...
+mse:2.932670213340316e-06, mae:0.00015298736980184913
+Combined predictions - mse:5.4001782700652257e-05, mae:0.003485372057184577 (cover 2)
+Combined predictions - mse:5.630059968098067e-05, mae:0.0035377347376197577 (cover 2)
+Combined predictions - mse:3.445443871896714e-05, mae:0.0025999448262155056 (cover 2)
+Combined predictions - mse:3.85859893867746e-05, mae:0.0027051297947764397 (cover 2)
+Combined predictions - mse:1.4437991922022775e-05, mae:0.00073409010656178 (cover 2)
+Combined predictions - mse:1.905098724819254e-05, mae:0.0008133674273267388 (cover 2)
+Combined predictions - mse:9.368945939058904e-06, mae:0.00040639773942530155 (cover 2)
+Combined predictions - mse:1.3034979929216206e-05, mae:0.00047775599523447454 (cover 2)
+[eval] Traffic_TimeMixer_discrete8_appendix_nuscaled_p50 (36s)

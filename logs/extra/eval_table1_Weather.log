@@ -1,0 +1,408 @@
+Use GPU: cuda:0
+test 8911
+loading model
+mse:301.9937744140625, mae:4.013545989990234
+test 8911
+loading model
+mse:156.47471618652344, mae:1.8639392852783203
+test 8911
+loading model
+mse:169.1112823486328, mae:1.1094970703125
+test 8911
+loading model
+mse:223.94650268554688, mae:1.1405516862869263
+[eval] Weather_iTransformer_none_appendix (12s)
+Use GPU: cuda:0
+test 8911
+Loading model...
+mse:490.8003845214844, mae:7.548774242401123
+test 8911
+Loading model...
+mse:294.7139587402344, mae:2.6143596172332764
+test 8911
+Loading model...
+mse:459.7647399902344, mae:2.0401997566223145
+test 8911
+Loading model...
+mse:579.54345703125, mae:1.9337120056152344
+[eval] Weather_iTransformer_uniform_appendix (12s)
+Use GPU: cuda:0
+test 8911
+Loading model...
+mse:488.3168640136719, mae:7.500786304473877
+test 8911
+Loading model...
+mse:287.0742492675781, mae:2.5879909992218018
+test 8911
+Loading model...
+mse:449.1732177734375, mae:2.0193495750427246
+test 8911
+Loading model...
+mse:569.447265625, mae:1.9221912622451782
+[eval] Weather_iTransformer_uniform02_appendix (12s)
+Use GPU: cuda:0
+test 8911
+Loading model...
+mse:197.85885620117188, mae:4.593499183654785
+test 8911
+Loading model...
+mse:402.84368896484375, mae:3.1895253658294678
+test 8911
+Loading model...
+mse:556.4261474609375, mae:2.2697999477386475
+test 8911
+Loading model...
+mse:659.5462646484375, mae:2.057711124420166
+Combined predictions - mse:197.85885620117188, mae:4.593499183654785 (cover 1)
+Combined predictions - mse:197.85885620117188, mae:4.593499183654785 (cover 1)
+Combined predictions - mse:402.84368896484375, mae:3.1895253658294678 (cover 1)
+Combined predictions - mse:402.84368896484375, mae:3.1895253658294678 (cover 1)
+Combined predictions - mse:556.4261474609375, mae:2.2697999477386475 (cover 1)
+Combined predictions - mse:556.4261474609375, mae:2.2697999477386475 (cover 1)
+Combined predictions - mse:659.5462646484375, mae:2.057711124420166 (cover 1)
+Combined predictions - mse:659.5462646484375, mae:2.057711124420166 (cover 1)
+[eval] Weather_iTransformer_discrete4_appendix_nuscaled (29s)
+Use GPU: cuda:0
+test 8911
+Loading model...
+mse:147.34849548339844, mae:4.000823020935059
+test 8911
+Loading model...
+mse:74.68759155273438, mae:1.2457787990570068
+test 8911
+Loading model...
+mse:127.04430389404297, mae:1.2394450902938843
+test 8911
+Loading model...
+mse:218.50570678710938, mae:1.6928725242614746
+test 8911
+Loading model...
+mse:228.03892517089844, mae:1.1891061067581177
+test 8911
+Loading model...
+mse:258.0088195800781, mae:0.9225900173187256
+test 8911
+Loading model...
+mse:234.90538024902344, mae:0.8301302790641785
+test 8911
+Loading model...
+mse:347.3811950683594, mae:1.1236168146133423
+Combined predictions - mse:227.658447265625, mae:5.120521545410156 (cover 2)
+Combined predictions - mse:255.643798828125, mae:5.481979846954346 (cover 2)
+Combined predictions - mse:346.1533508300781, mae:2.9337563514709473 (cover 2)
+Combined predictions - mse:349.7304992675781, mae:2.950409412384033 (cover 2)
+Combined predictions - mse:486.1269836425781, mae:2.1119349002838135 (cover 2)
+Combined predictions - mse:487.5318908691406, mae:2.1152637004852295 (cover 2)
+Combined predictions - mse:582.3361206054688, mae:1.9530645608901978 (cover 2)
+Combined predictions - mse:582.7570190429688, mae:1.9536323547363281 (cover 2)
+[eval] Weather_iTransformer_discrete8_appendix_nuscaled_p50 (55s)
+Use GPU: cuda:0
+test 8911
+loading model
+mse:514.4957275390625, mae:4.1671905517578125
+test 8911
+loading model
+mse:231.9422607421875, mae:2.1037237644195557
+test 8911
+loading model
+mse:152.08236694335938, mae:1.0744708776474
+test 8911
+loading model
+mse:178.6283721923828, mae:1.0988571643829346
+[eval] Weather_DLinear_none_appendix (9s)
+Use GPU: cuda:0
+test 8911
+Loading model...
+mse:472.1755676269531, mae:6.918666839599609
+test 8911
+Loading model...
+mse:134.2327880859375, mae:1.765576720237732
+test 8911
+Loading model...
+mse:182.4188232421875, mae:1.368441104888916
+test 8911
+Loading model...
+mse:243.63037109375, mae:1.3329359292984009
+[eval] Weather_DLinear_uniform_appendix (10s)
+Use GPU: cuda:0
+test 8911
+Loading model...
+mse:515.5164794921875, mae:7.9233174324035645
+test 8911
+Loading model...
+mse:142.61915588378906, mae:1.8327430486679077
+test 8911
+Loading model...
+mse:201.55784606933594, mae:1.4012151956558228
+test 8911
+Loading model...
+mse:268.83367919921875, mae:1.4660989046096802
+[eval] Weather_DLinear_uniform02_appendix (10s)
+Use GPU: cuda:0
+test 8911
+Loading model...
+mse:223.0330810546875, mae:5.485043525695801
+test 8911
+Loading model...
+mse:98.80000305175781, mae:1.7985740900039673
+test 8911
+Loading model...
+mse:41.44657516479492, mae:0.7026022672653198
+test 8911
+Loading model...
+mse:47.56536102294922, mae:0.8989915251731873
+Combined predictions - mse:223.0330810546875, mae:5.485043525695801 (cover 1)
+Combined predictions - mse:223.0330810546875, mae:5.485043525695801 (cover 1)
+Combined predictions - mse:98.80000305175781, mae:1.7985742092132568 (cover 1)
+Combined predictions - mse:98.80000305175781, mae:1.7985740900039673 (cover 1)
+Combined predictions - mse:41.44657516479492, mae:0.7026022672653198 (cover 1)
+Combined predictions - mse:41.44657516479492, mae:0.7026022672653198 (cover 1)
+Combined predictions - mse:47.56536102294922, mae:0.898991584777832 (cover 1)
+Combined predictions - mse:47.56536102294922, mae:0.8989915251731873 (cover 1)
+[eval] Weather_DLinear_discrete4_appendix_nuscaled (23s)
+Use GPU: cuda:0
+test 8911
+Loading model...
+mse:37.73135757446289, mae:2.6318867206573486
+test 8911
+Loading model...
+mse:16.9761962890625, mae:0.7787209749221802
+test 8911
+Loading model...
+mse:17.692485809326172, mae:0.5455906391143799
+test 8911
+Loading model...
+mse:11.960103034973145, mae:0.38920360803604126
+test 8911
+Loading model...
+mse:7.07710075378418, mae:0.28107407689094543
+test 8911
+Loading model...
+mse:6.580501556396484, mae:0.09757749736309052
+test 8911
+Loading model...
+mse:5.726769924163818, mae:0.2477165013551712
+test 8911
+Loading model...
+mse:21.50367546081543, mae:0.6059030890464783
+Combined predictions - mse:84.61652374267578, mae:3.9299261569976807 (cover 2)
+Combined predictions - mse:93.84130096435547, mae:3.856959819793701 (cover 2)
+Combined predictions - mse:48.77140426635742, mae:1.1780450344085693 (cover 2)
+Combined predictions - mse:77.39250183105469, mae:1.531409740447998 (cover 2)
+Combined predictions - mse:21.086769104003906, mae:0.4660004675388336 (cover 2)
+Combined predictions - mse:28.15716552734375, mae:0.5212026238441467 (cover 2)
+Combined predictions - mse:23.53353500366211, mae:0.6820253133773804 (cover 2)
+Combined predictions - mse:41.165531158447266, mae:1.0128545761108398 (cover 2)
+[eval] Weather_DLinear_discrete8_appendix_nuscaled_p50 (40s)
+Use GPU: cuda:0
+test 8911
+loading model
+mse:290.8963317871094, mae:3.5917797088623047
+test 8911
+loading model
+mse:168.00115966796875, mae:1.8904693126678467
+test 8911
+loading model
+mse:162.59902954101562, mae:1.0822455883026123
+test 8911
+loading model
+mse:219.06333923339844, mae:1.1146636009216309
+[eval] Weather_PatchTST_none_appendix (30s)
+Use GPU: cuda:0
+test 8911
+Loading model...
+mse:316.44964599609375, mae:6.202005386352539
+test 8911
+Loading model...
+mse:51.28331756591797, mae:1.1901051998138428
+test 8911
+Loading model...
+mse:26.38408660888672, mae:0.46264970302581787
+test 8911
+Loading model...
+mse:35.39651107788086, mae:0.6446700692176819
+[eval] Weather_PatchTST_uniform_appendix (30s)
+Use GPU: cuda:0
+test 8911
+Loading model...
+mse:204.28567504882812, mae:5.3112311363220215
+test 8911
+Loading model...
+mse:43.321800231933594, mae:1.1261460781097412
+test 8911
+Loading model...
+mse:20.45013427734375, mae:0.4163724482059479
+test 8911
+Loading model...
+mse:20.191864013671875, mae:0.5420995354652405
+[eval] Weather_PatchTST_uniform02_appendix (30s)
+Use GPU: cuda:0
+test 8911
+Loading model...
+mse:81.19351959228516, mae:2.6644043922424316
+test 8911
+Loading model...
+mse:47.565269470214844, mae:1.201798915863037
+test 8911
+Loading model...
+mse:16.693115234375, mae:0.3866455852985382
+test 8911
+Loading model...
+mse:19.100727081298828, mae:0.5630329847335815
+  expectation: 확률 합이 0인 원소 22.095% → 단순 평균으로 대체
+Combined predictions - mse:81.19351959228516, mae:2.6644043922424316 (cover 1)
+Combined predictions - mse:81.19351959228516, mae:2.6644043922424316 (cover 1)
+  expectation: 확률 합이 0인 원소 80.169% → 단순 평균으로 대체
+Combined predictions - mse:47.565269470214844, mae:1.201798915863037 (cover 1)
+Combined predictions - mse:47.565269470214844, mae:1.201798915863037 (cover 1)
+  expectation: 확률 합이 0인 원소 81.589% → 단순 평균으로 대체
+Combined predictions - mse:16.693115234375, mae:0.3866455852985382 (cover 1)
+Combined predictions - mse:16.693115234375, mae:0.3866455852985382 (cover 1)
+  expectation: 확률 합이 0인 원소 85.617% → 단순 평균으로 대체
+Combined predictions - mse:19.100727081298828, mae:0.5630329847335815 (cover 1)
+Combined predictions - mse:19.100727081298828, mae:0.5630329847335815 (cover 1)
+[eval] Weather_PatchTST_discrete4_appendix_nuscaled (47s)
+Use GPU: cuda:0
+test 8911
+Loading model...
+mse:43.33175277709961, mae:2.228043794631958
+test 8911
+Loading model...
+mse:12.397378921508789, mae:0.5451788902282715
+test 8911
+Loading model...
+mse:14.151521682739258, mae:0.4270564913749695
+test 8911
+Loading model...
+mse:15.57371711730957, mae:0.46255791187286377
+test 8911
+Loading model...
+mse:9.680307388305664, mae:0.25415751338005066
+test 8911
+Loading model...
+mse:8.92226791381836, mae:0.1414700299501419
+test 8911
+Loading model...
+mse:8.433737754821777, mae:0.21395522356033325
+test 8911
+Loading model...
+mse:13.224116325378418, mae:0.3150303065776825
+  expectation: 확률 합이 0인 원소 21.897% → 단순 평균으로 대체
+Combined predictions - mse:129.33580017089844, mae:3.867098808288574 (cover 2)
+Combined predictions - mse:130.94375610351562, mae:3.666802406311035 (cover 2)
+  expectation: 확률 합이 0인 원소 80.588% → 단순 평균으로 대체
+Combined predictions - mse:60.99110794067383, mae:1.3016095161437988 (cover 2)
+Combined predictions - mse:74.3812484741211, mae:1.4905202388763428 (cover 2)
+  expectation: 확률 합이 0인 원소 83.194% → 단순 평균으로 대체
+Combined predictions - mse:31.63054847717285, mae:0.5028476119041443 (cover 2)
+Combined predictions - mse:34.82353210449219, mae:0.5177237391471863 (cover 2)
+  expectation: 확률 합이 0인 원소 87.859% → 단순 평균으로 대체
+Combined predictions - mse:32.7672119140625, mae:0.6447998881340027 (cover 2)
+Combined predictions - mse:36.916419982910156, mae:0.6945751905441284 (cover 2)
+[eval] Weather_PatchTST_discrete8_appendix_nuscaled_p50 (92s)
+Use GPU: cuda:0
+test 8911
+loading model
+mse:419.1306457519531, mae:5.12204647064209
+test 8911
+loading model
+mse:179.97682189941406, mae:1.9112261533737183
+test 8911
+loading model
+mse:148.29248046875, mae:1.0330374240875244
+test 8911
+loading model
+mse:194.33616638183594, mae:1.098070502281189
+[eval] Weather_TimeMixer_none_appendix (11s)
+Use GPU: cuda:0
+test 8911
+Loading model...
+mse:231.5987548828125, mae:5.276540756225586
+test 8911
+Loading model...
+mse:89.76006317138672, mae:1.4992231130599976
+test 8911
+Loading model...
+mse:43.10677719116211, mae:0.5808886885643005
+test 8911
+Loading model...
+mse:87.6359634399414, mae:1.0617024898529053
+[eval] Weather_TimeMixer_uniform_appendix (10s)
+Use GPU: cuda:0
+test 8911
+Loading model...
+mse:237.6000213623047, mae:5.297152996063232
+test 8911
+Loading model...
+mse:88.93987274169922, mae:1.5026211738586426
+test 8911
+Loading model...
+mse:53.75169372558594, mae:0.6742813587188721
+test 8911
+Loading model...
+mse:83.24069213867188, mae:0.972008466720581
+[eval] Weather_TimeMixer_uniform02_appendix (10s)
+Use GPU: cuda:0
+test 8911
+Loading model...
+mse:106.53094482421875, mae:3.3469460010528564
+test 8911
+Loading model...
+mse:58.74116516113281, mae:1.3135401010513306
+test 8911
+Loading model...
+mse:34.46066665649414, mae:0.5443739891052246
+test 8911
+Loading model...
+mse:50.06852722167969, mae:0.7859408259391785
+  expectation: 확률 합이 0인 원소 14.522% → 단순 평균으로 대체
+Combined predictions - mse:106.53094482421875, mae:3.3469460010528564 (cover 1)
+Combined predictions - mse:106.53094482421875, mae:3.3469460010528564 (cover 1)
+  expectation: 확률 합이 0인 원소 12.006% → 단순 평균으로 대체
+Combined predictions - mse:58.74116516113281, mae:1.3135401010513306 (cover 1)
+Combined predictions - mse:58.74116516113281, mae:1.3135401010513306 (cover 1)
+  expectation: 확률 합이 0인 원소 44.890% → 단순 평균으로 대체
+Combined predictions - mse:34.46066665649414, mae:0.5443739891052246 (cover 1)
+Combined predictions - mse:34.46066665649414, mae:0.5443739891052246 (cover 1)
+  expectation: 확률 합이 0인 원소 73.982% → 단순 평균으로 대체
+Combined predictions - mse:50.06852722167969, mae:0.7859408259391785 (cover 1)
+Combined predictions - mse:50.06852722167969, mae:0.7859408259391785 (cover 1)
+[eval] Weather_TimeMixer_discrete4_appendix_nuscaled (25s)
+Use GPU: cuda:0
+test 8911
+Loading model...
+mse:27.66916847229004, mae:2.126272439956665
+test 8911
+Loading model...
+mse:11.330265998840332, mae:0.5497187376022339
+test 8911
+Loading model...
+mse:12.246993064880371, mae:0.40960681438446045
+test 8911
+Loading model...
+mse:13.324664115905762, mae:0.44878488779067993
+test 8911
+Loading model...
+mse:7.102636814117432, mae:0.2691344618797302
+test 8911
+Loading model...
+mse:6.817071914672852, mae:0.1250288188457489
+test 8911
+Loading model...
+mse:8.947505950927734, mae:0.2582072913646698
+test 8911
+Loading model...
+mse:14.155686378479004, mae:0.33031490445137024
+  expectation: 확률 합이 0인 원소 17.591% → 단순 평균으로 대체
+Combined predictions - mse:215.25401306152344, mae:5.264598369598389 (cover 2)
+Combined predictions - mse:233.0682373046875, mae:5.142978191375732 (cover 2)
+  expectation: 확률 합이 0인 원소 48.092% → 단순 평균으로 대체
+Combined predictions - mse:51.170806884765625, mae:1.204630970954895 (cover 2)
+Combined predictions - mse:56.067962646484375, mae:1.2535381317138672 (cover 2)
+  expectation: 확률 합이 0인 원소 68.847% → 단순 평균으로 대체
+Combined predictions - mse:23.466684341430664, mae:0.4721263647079468 (cover 2)
+Combined predictions - mse:27.85154151916504, mae:0.5069513916969299 (cover 2)
+  expectation: 확률 합이 0인 원소 75.872% → 단순 평균으로 대체
+Combined predictions - mse:28.97232437133789, mae:0.6365765333175659 (cover 2)
+Combined predictions - mse:29.717741012573242, mae:0.6411405205726624 (cover 2)
+[eval] Weather_TimeMixer_discrete8_appendix_nuscaled_p50 (50s)
