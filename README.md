@@ -191,6 +191,27 @@ The paper does not specify every setting. The following were chosen because they
 
 For part F, set `USE_DRIVE = True`. Results are then saved to Google Drive and finished runs are skipped when the notebook is run again.
 
+## Trained weights
+
+The [Releases](../../releases) page provides the weights of the 133 runs behind the additional experiments' results: Fig. 2 (50), Fig. 5 (2), Fig. 6–9 (21) and Table 1 for Traffic, Electricity and Weather (60).
+
+| File | Contents |
+|---|---|
+| `gotsf_extra_checkpoints.zip` | `checkpoints_extra/<run>/` with `checkpoint.pth`, `args.pk` and `train_loss.npy`, plus `metrics_extra.csv` |
+| `metrics_extra.csv` | Every evaluated metric (MAE, MSE, RMSE) of those runs |
+
+Weights for the main notebook are not provided, since it retrains in about 15 minutes. Runs that were superseded while matching the paper (for example Traffic with the raw decay rate) are not included either.
+
+To evaluate the additional experiments without retraining:
+1. Open the additional experiments notebook in Colab and run sections 0–2 (clone and patches).
+2. Upload `gotsf_extra_checkpoints.zip` to the session and extract it into the cloned repository:
+   ```python
+   !unzip -q /content/gotsf_extra_checkpoints.zip -d /content/gotsf
+   ```
+3. Run the remaining cells with `USE_DRIVE = False`. Finished runs are detected, so training is skipped and only evaluation runs.
+
+`checkpoint.pth` is a PyTorch `state_dict`. `args.pk` is a pickle of the training arguments, so only open it from a source you trust.
+
 ## Repository structure
 
 ```

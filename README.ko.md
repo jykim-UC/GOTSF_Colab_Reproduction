@@ -191,6 +191,27 @@ iTransformer의 B와 D⋆(L = 4, 관심 구간 [0, 0.5]를 구간 2개로 patchi
 
 파트 F는 `USE_DRIVE = True`로 실행하세요. 결과가 Google Drive에 저장되고, 다시 실행하면 끝난 실험은 건너뜁니다.
 
+## 학습된 가중치
+
+[Releases](../../releases) 페이지에서 추가 실험 결과를 만든 실험 133개의 가중치를 받을 수 있습니다. Fig. 2(50개), Fig. 5(2개), Fig. 6–9(21개), Traffic·Electricity·Weather의 Table 1(60개)입니다.
+
+| 파일 | 내용 |
+|---|---|
+| `gotsf_extra_checkpoints.zip` | `checkpoints_extra/<실험>/`의 `checkpoint.pth`, `args.pk`, `train_loss.npy`와 `metrics_extra.csv` |
+| `metrics_extra.csv` | 위 실험들의 모든 평가 지표(MAE, MSE, RMSE) |
+
+메인 노트북의 가중치는 약 15분이면 다시 학습할 수 있어 올리지 않았습니다. 논문과 맞춰 보는 과정에서 대체된 실험(예: 원 단위 decay로 학습한 Traffic)도 포함하지 않았습니다.
+
+다시 학습하지 않고 평가만 하려면:
+1. 추가 실험 노트북을 Colab에서 열고 0–2절(클론, 패치)을 실행합니다.
+2. `gotsf_extra_checkpoints.zip`을 세션에 올리고, 클론한 저장소 안에 풉니다.
+   ```python
+   !unzip -q /content/gotsf_extra_checkpoints.zip -d /content/gotsf
+   ```
+3. `USE_DRIVE = False`로 나머지 셀을 실행합니다. 끝난 실험으로 인식해서 학습은 건너뛰고 평가만 합니다.
+
+`checkpoint.pth`는 PyTorch `state_dict`이고, `args.pk`는 학습 인자를 담은 pickle 파일입니다. pickle은 신뢰할 수 있는 출처에서 받은 것만 여세요.
+
 ## 저장소 구조
 
 ```
